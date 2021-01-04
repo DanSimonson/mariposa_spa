@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import './App.css';
-//import Customers from './components/customers';
+
 
 function App() {
   const [reservations, setReservations] = useState([]);
